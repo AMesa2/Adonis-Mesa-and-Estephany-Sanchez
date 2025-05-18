@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Watchlist - Movie Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="homepage.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="watchlist.html">Watchlist</a>
+    </nav>
+</header>
+
+
+<section id="movie-details" class="hidden">
+    <div class="poster">
+        <img id="posterImage" src="" alt="Show Poster">
+    </div>
+    <div class="info">
+        <h2 id="title"></h2>
+        <p id="plot"></p>
+        <p><strong>Genre:</strong> <span id="genre"></span></p>
+        <p><strong>Rating:</strong> <span id="rating"></span></p>
+        <p><strong>Duration:</strong> <span id="duration"></span></p>
+        <p><strong>Network:</strong> <span id="network"></span></p>
+    </div>
+    <button id="closeButton">Close</button>
+</section>
+
+
+
+
+
+<main>
+    <h2>Your Watchlist</h2>
+    <section id="watchlist-items">
+    </section>
+</main>
+
+<script src="./supabaseClient.js" type="module"></script> <!-- This is correct -->
+<script src="./api.js" type="module"></script>            <!-- This is correct -->
+<script src="./watchlist.js" type="module"></script>      <!-- This is correct -->
+
+</body>
+</html>
