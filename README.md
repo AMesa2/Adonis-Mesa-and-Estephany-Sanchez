@@ -49,6 +49,9 @@ cd movie-explorer
 Install Dependencies:
 npm install
 Configure Environment Variables: Create a .env file in the root of your project with the following:
+Supabase Project URL: https://zighylulqmskgjvmeaiv.supabase.co
+Supabase Anon Key:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InppZ2h5bHVscW1za2dqdm1lYWl2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc0MjA5MDcsImV4cCI6MjA2Mjk5NjkwN30.vCNwplhXNQ7vmYvANLV1ajz5635CxdQQTjNxWBEbx3o
+Simkl API Key: a0c77ae72ca4ed2c4e25d3d5137baaf718bb31497722e9e9718f4d46a856e7dd
 VITE_SUPABASE_URL=https://your-supabase-url.supabase.co
 VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
 VITE_SIMKL_CLIENT_ID=your-simkl-client-id
