@@ -44,8 +44,8 @@ Supabase account (for database storage)
 Git (for version control)
 
 🔄 Installation Steps:
-Clone the Repository:
-git clone https://github.com/your-username/movie-explorer.git
+Clone the Repository:z
+git clone https:[//https://github.com/AMesa2/Adonis-Mesa-and-Estephany-Sanche
 cd movie-explorer
 Install Dependencies:
 npm install
