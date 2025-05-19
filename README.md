@@ -35,25 +35,66 @@ IMDb-API	Gives info about movies and TV shows
 
 📱 Works on phones, tablets, and computers
 
-🚀 How to Run the Site
-Download or clone the project:
+🔗 Developer Manual
+Prerequisites:
+Node.js (v14 or above)
+npm (Node Package Manager)
+Supabase account (for database storage)
+Git (for version control)
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/movie-explorer.git
-Open the folder in a code editor (like VS Code).
+🔄 Installation Steps:
+Clone the Repository:
+git clone https://github.com/your-username/movie-explorer.git
+cd movie-explorer
+Install Dependencies:
+npm install
+Configure Environment Variables: Create a .env file in the root of your project with the following:
+VITE_SUPABASE_URL=https://your-supabase-url.supabase.co
+VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
+VITE_SIMKL_CLIENT_ID=your-simkl-client-id
+Set Up Supabase:
+Log in to Supabase.
+Create a new project.
+Set up a table named watchlist with columns:
+id (UUID, Primary Key)
+title (Text)
+type (Text)
+poster (Text)
+simkl_id (Text)
+date_added (Timestamp)
+Run the Application:
+npm run dev
+Navigate to http://localhost:5173 in your browser.
+Build for Production:
+npm run build
+npm run preview
 
-Right-click on homepage.html and open it in your browser.
+🚀 Deployment
+To deploy this application, you can use Vercel or Netlify:
+Push your code to a GitHub repository.
+Link your repository to Vercel or Netlify.
+Set environment variables in the dashboard for:
+VITE_SUPABASE_URL
+VITE_SUPABASE_ANON_KEY
+VITE_SIMKL_CLIENT_ID
+Deploy the site and access it from the generated URL.
 
-💡 Tip: If you're using modules (like in about.js), you might need to use a local server like Live Server in VS Code.
+📂 File Structure
+├── index.html
+├── styles.css
+├── supabaseClient.js
+├── api.js
+├── home.js
+├── watchlist.js
+├── about.js
+├── watchlist.html
+├── about.html
+└── README.md
 
-🧭 How to Use It
-Go to the Homepage to explore trending content and search.
-
-Visit the About page to learn more about the site and see data charts.
-
-Use the Watchlist to keep track of your favorite shows and movies.
-
-
+🛠️ Technologies Used
+HTML5 & CSS3 for the user interface.
+JavaScript (ES6) for logic and API handling.
+Supabase for real-time database storage.
+Simkl API for fetching movie and TV show data.
+Vite for fast development build.
 
