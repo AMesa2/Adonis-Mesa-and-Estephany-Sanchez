@@ -1,6 +1,7 @@
 # Adonis-Mesa-and-Estephany-Sanchez
 
 🍿 What’s This Project About?
+
 Movie Explorer is a website that helps people find movies and TV shows they’ll enjoy. With so many streaming platforms and options out there, it can be hard to decide what to watch. Our site makes it easier by showing trending content, letting users search by name or genre, and saving shows to a personal watchlist. We use the IMDb-API to get all our movie and TV show info.
 
 📁 What Each File Does
